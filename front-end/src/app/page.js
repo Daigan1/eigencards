@@ -1,6 +1,7 @@
 'use client'
 
 import Header from "./components/header";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
           <div className="flex flex-col text-center gap-2">
             <h1 className="text-4xl">Welcome to EigenCards</h1>
             <p>Collect, Play, and Earn real-money rewards!</p>
-            <button>Go to App</button>
+            <Link href = "/home"><button>Go to App</button></Link>
           </div>
           <img src="/img/placehold.png" alt="main-image" className="w-1/4 h-1/2" />
         </div>
