@@ -42,3 +42,7 @@ footer {
   position: absolute;
   bottom: 0
 }
+
+h1 {
+  font-size: 42px;
+}
