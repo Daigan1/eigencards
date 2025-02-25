@@ -4,17 +4,12 @@ import Progress from "./progress";
 
 export default function Card(props) {
 	return (
-		<div className = {`h-full w-[${props.w}%]`}>
+		<div className = {`${props.w == "sm" ? "w-16" : "w-64"} shrink-0`}>
 			<div className={`rounded-lg border border-white flex flex-col`}>
-				<div className="flex pl-4 pr-4 pt-2 pb-2">
-					<div>
-						<p>{props.name}</p>
-					</div>
-					<div className="ml-auto mr-[5%]">
-						{props.xp}
-					</div>
-				</div>
-				<img className = "rounded-b-lg w-full" src = "/img/placehold.png"/>
+			
+						<p className = "text-center text-xl">{props.name}</p>	
+			
+				<img className = "rounded-b-lg" src = "/img/placehold.png"/>
 
 			</div>
 			<Progress />

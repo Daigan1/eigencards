@@ -18,7 +18,8 @@
 
 html {
   padding: 0;
-  margin: 0
+  margin: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -39,7 +40,7 @@ section {
 footer {
   height: 10vh;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   bottom: 0
 }
 

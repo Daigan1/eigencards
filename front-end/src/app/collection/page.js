@@ -2,7 +2,7 @@
 
 import Footer from "../components/footer";
 import Card from "../components/card";
-import Profile from "../components/profile";
+
 
 export default function Collection() {
 	return (
@@ -14,19 +14,21 @@ export default function Collection() {
 						<p>32 cards in collection</p>
 					</div>
 					<div>
-						<p className = "inline">Filter by: </p>
+						<p className="inline">Filter by: </p>
 						<select>
-							 <option>Rarity</option>
+							<option>Rarity</option>
 						</select>
 					</div>
 				</div>
 
-				<div className="flex w-full h-[70%] justify-center items-center gap-8 mt-10">
-					<Card w={10} name="test" xp={5} />
-					<Card w={10} name="test" xp={5} />
-					<Card w={10} name="test" xp={5} />
-					<Card w={10} name="test" xp={5} />
+				<div className="flex justify-center items-center w-full h-full">
+					<div className="w-[80%] h-[80%] overflow-scroll overflow-x-hidden pl-2 pr-2 mb-16">
+						<div className="flex w-full justify-center items-center gap-x-8 gap-y-4 mt-10 flex-wrap">
+							{(Array(100).fill(0).map(() => <Card w="sm" key={Math.random()} name="test" xp={5} />))}
+						</div>
+					</div>
 				</div>
+
 				<footer>
 					<Footer />
 				</footer>

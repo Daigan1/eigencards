@@ -1,9 +1,5 @@
 'use client'
 
-import Footer from "../components/footer";
-import Card from "../components/card";
-import Profile from "../components/profile";
-
 export default function Welcome() {
 	return (
 		<section>
