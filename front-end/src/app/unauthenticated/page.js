@@ -1,7 +1,7 @@
 'use client'
 
 
-export default function Home() {
+export default function Unauthorized() {
 	return (
 		<div>
 				<div className = "w-full h-[85vh]">

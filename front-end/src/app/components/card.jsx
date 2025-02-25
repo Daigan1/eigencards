@@ -4,8 +4,8 @@ import Progress from "./progress";
 
 export default function Card(props) {
 	return (
-		<div className = "h-[80%]">
-			<div className="rounded-lg border border-white w-48 flex flex-col">
+		<div className = {`h-full w-[${props.w}%]`}>
+			<div className={`rounded-lg border border-white flex flex-col`}>
 				<div className="flex pl-4 pr-4 pt-2 pb-2">
 					<div>
 						<p>{props.name}</p>
