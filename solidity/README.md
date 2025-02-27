@@ -1,3 +1,9 @@
+## Terms
+Ticks: The smallest amount the token can move in value, either up or down. Ex: In tradfi, on a stock chart you can see stocks either move 1 cent down or up.
+
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
