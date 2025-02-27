@@ -32,3 +32,6 @@ local-node: setup-yarn
 
 deploy:
 	forge create StakeContract --private-key ${PRIVATE_KEY} # --rpc-url 
+
+deploy-sepolia:
+	forge script script/DynamicFeeHook.s.sol --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast

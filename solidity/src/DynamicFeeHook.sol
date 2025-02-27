@@ -1,13 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.26;
 
-import { Hooks } from "@uniswap/v4-core/src/libraries/Hooks.sol";
 import { IAvsLogic } from "./interfaces/IAvsLogic.sol";
-import { BaseHook } from "v4-periphery/src/utils/BaseHook.sol";
 import { IPoolManager } from "v4-core/src/interfaces/IPoolManager.sol";
 import {IAttestationCenter} from "./interfaces/IAttestationCenter.sol";
+import { Hooks } from "@uniswap/v4-core/src/libraries/Hooks.sol";
+import { BaseHook } from "v4-periphery/src/utils/BaseHook.sol";
 import {PoolKey} from "v4-core/src/types/PoolKey.sol";
 import {BeforeSwapDelta, BeforeSwapDeltaLibrary} from "v4-core/src/types/BeforeSwapDelta.sol";
+import {PoolId} from "v4-core/src/types/PoolId.sol";
 
 contract DynamicFeeHook is IAvsLogic, BaseHook {
     address public immutable ATTESTATION_CENTER; // orcale data
@@ -18,7 +19,10 @@ contract DynamicFeeHook is IAvsLogic, BaseHook {
     event FeeUpdated(uint24 indexed fee);
     error OnlyAttestationCenter();
 
-    constructor(address _attestationCenterAddress, IPoolManager _poolManager) BaseHook(_poolManager) {
+    constructor(
+        address _attestationCenterAddress, 
+        IPoolManager _poolManager
+    ) BaseHook(_poolManager) {
         ATTESTATION_CENTER = _attestationCenterAddress;
     }
 

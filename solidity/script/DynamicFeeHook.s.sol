@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-
 pragma solidity ^0.8.26;
 
 import "forge-std/Script.sol";
@@ -10,13 +9,12 @@ import {HookMiner} from "v4-periphery/src/utils/HookMiner.sol";
 import {DynamicFeeHook} from "../src/DynamicFeeHook.sol";
 
 contract DynamicFeeHookScript is Script {
-    function setup() public {}
+    function setUp() public {}
 
-    function run(
-        address attestationCenter,
-        address poolManager
-    ) public {
-        address C2Deployer = 0x4e59b44847b379578588920cA78FbF26c0B4956C; // not sure what this address is
+    function run () public {
+        address C2Deployer = 0x4e59b44847b379578588920cA78FbF26c0B4956C; // default CREATE_2 address
+        address poolManager = 0x05E73354cFDd6745C338b50BcFDfA3Aa6fA03408; // Base sepolia v4 addy
+        address attestationCenter = cooked;
 
         uint160 flags = uint160(Hooks.AFTER_INITIALIZE_FLAG | Hooks.BEFORE_SWAP_FLAG);
         bytes memory constructorArgs = abi.encode(attestationCenter, IPoolManager(poolManager));
