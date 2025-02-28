@@ -14,7 +14,7 @@ contract DynamicFeeHookScript is Script {
     function run () public {
         address C2Deployer = 0x4e59b44847b379578588920cA78FbF26c0B4956C; // default CREATE_2 address
         address poolManager = 0x05E73354cFDd6745C338b50BcFDfA3Aa6fA03408; // Base sepolia v4 addy
-        address attestationCenter = cooked;
+        address attestationCenter = 0x2113bfe9aB9A383192686125fe0605cc7766078E;
 
         uint160 flags = uint160(Hooks.AFTER_INITIALIZE_FLAG | Hooks.BEFORE_SWAP_FLAG);
         bytes memory constructorArgs = abi.encode(attestationCenter, IPoolManager(poolManager));
