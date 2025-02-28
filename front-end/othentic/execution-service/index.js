@@ -5,7 +5,6 @@ function getRandomInt(max) {
 	return Math.floor(Math.random() * (max + 1));
 }
 
-
 const { ethers } = require("ethers");
 
 // Replace with your RPC URL
