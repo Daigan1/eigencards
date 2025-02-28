@@ -4,6 +4,13 @@ Ticks: The smallest amount the token can move in value, either up or down. Ex: I
 
 
 
+## Othentic
+
+1. docker-compose build --no-cache
+2. docker-compose up --build
+
+(Get Started)[https://docs.othentic.xyz/main/avs-framework/quick-start]
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
