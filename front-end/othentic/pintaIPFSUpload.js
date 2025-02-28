@@ -20,21 +20,22 @@ async function run() {
 	let cards = await fs.readFile("./cards.json");
 	cards = JSON.parse(cards);
 
-	cards.common.forEach(async card => {
-		setTimeout(async () => {
+	// cards.common.forEach(async card => {
+	// 	setTimeout(async () => {
 
 
-			const cardSRC = card.src;
+	// 		const cardSRC = card.src;
 
-			const uploadImage = await pinata.upload.url(cardSRC);
+	// 		const uploadImage = await pinata.upload.url(cardSRC);
 
-			card.src = `ipfs://${uploadImage.IpfsHash}`
+	// 		card.src = `ipfs://${uploadImage.IpfsHash}`
 
-			const upload2 = await pinata.upload.json(card);
-			common.push(`ipfs://${upload2.IpfsHash}`);
+	// 		const upload2 = await pinata.upload.json(card);
+	// 		common.push(`ipfs://${upload2.IpfsHash}`);
+	// 		console.log(common)
 
-		}, 5000);
-	});
+	// 	}, 5000);
+	// });
 
 	// cards.epic.forEach(async card => {
 	// 	setTimeout(async () => {
@@ -48,27 +49,29 @@ async function run() {
 
 	// 		const upload2 = await pinata.upload.json(card);
 	// 		epic.push(`ipfs://${upload2.IpfsHash}`);
+	// 		console.log(epic);
 	// 	}, 5000);
 	// });
 
-	// cards.legendary.forEach(async card => {
-	// 	setTimeout(async () => {
+	cards.legendary.forEach(async card => {
+		setTimeout(async () => {
 
 
-	// 		const cardSRC = card.src;
+			const cardSRC = card.src;
 
-	// 		const uploadImage = await pinata.upload.url(cardSRC);
+			const uploadImage = await pinata.upload.url(cardSRC);
 
-	// 		card.src = `ipfs://${uploadImage.IpfsHash}`
+			card.src = `ipfs://${uploadImage.IpfsHash}`
 
-	// 		const upload2 = await pinata.upload.json(card);
-	// 		legendary.push(`ipfs://${upload2.IpfsHash}`);
-	// 	}, 10000);
-	// });
+			const upload2 = await pinata.upload.json(card);
+			legendary.push(`ipfs://${upload2.IpfsHash}`);
+			console.log(legendary)
+		}, 5000);
+	});
 
 
-
-	await fs.writeFile("common.json", common);
+	// console.log(common);
+	// await fs.writeFile("./common.json", common);
 	// await fs.writeFile("epic.json", epic);
 	// await fs.writeFile("legendary.json", legendary);
 

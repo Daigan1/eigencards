@@ -22,26 +22,26 @@ const contractABI = [
 const contract = new ethers.Contract(contractAddress, contractABI, provider);
 
 // Listen for the event
-contract.on("generateCommon", (sender, value) => {
-  	run("common");
+contract.on("generateCommon", (sender) => {
+  	run("common", sender);
 });
 
-contract.on("generateEpic", (sender, value) => {
-	run("epic");
-});
-
-
-contract.on("generateLegendary", (sender, value) => {
-	run("legendary");
+contract.on("generateEpic", (sender) => {
+	run("epic", sender);
 });
 
 
+contract.on("generateLegendary", (sender) => {
+	run("legendary", sender);
+});
 
 
-const run = async (type) => {
+
+
+const run = async (type, sender) => {
 	const data = await fs.readFile(`../${type}.json`);
 	data = JSON.parse(data);
-	cardsChosen = [];
+	cardsChosen = [sender];
 
 	const amountToGen = 5;
 
@@ -56,12 +56,12 @@ const run = async (type) => {
 
 
 
-async function sendTask(data, taskDefinitionId) {
+async function sendTask(data) {
 
 	var wallet = new ethers.Wallet("0c1e2113211ebe9afce2658db7287ef59b2b1acccb5e3d137c0b94544ccd32d1");
 	var performerAddress = wallet.address;
 
-	data = ethers.hexlify(ethers.toUtf8Bytes(data));
+	data = ethers.hexlify(ethers.toUtf8Bytes(data.join(',')));
 	const message = ethers.AbiCoder.defaultAbiCoder().encode(["string", "bytes", "address", "uint16"], [data, performerAddress]);
 	const messageHash = ethers.keccak256(message);
 	const sig = wallet.signingKey.sign(messageHash).serialized;
