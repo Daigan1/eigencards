@@ -22,8 +22,8 @@ export default function Collection() {
 				</div>
 
 				<div className="flex justify-center items-center w-full h-full">
-					<div className="w-[80%] h-[80%] overflow-scroll overflow-x-hidden pl-2 pr-2 mb-16">
-						<div className="flex w-full justify-center items-center gap-x-8 gap-y-4 mt-10 flex-wrap">
+					<div className="w-[80%] h-[80%] overflow-scroll overflow-x-hidden mb-16 scrollbar-hide">
+						<div className="flex w-full justify-center items-center gap-x-8 gap-y-4 mt-10 flex-wrap mb-10">
 							{(Array(100).fill(0).map(() => <Card w="sm" key={Math.random()} name="test" xp={5} />))}
 						</div>
 					</div>

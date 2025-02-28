@@ -7,11 +7,12 @@ import {
 	ReactSketchCanvas
 } from "react-sketch-canvas";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { BlockPicker } from "react-color";
-import { writeContract } from '@wagmi/core'
+import { writeContract, readContract } from '@wagmi/core'
 import { useAppKitAccount } from "@reown/appkit/react";
 import { config } from "@/appkit/config";
+import { useRouter } from "next/navigation";
 
 
 
@@ -78,7 +79,7 @@ export default function Welcome() {
 
 
 
-	
+
 
 
 	const uploadProfile = async () => {
@@ -94,28 +95,26 @@ export default function Welcome() {
 
 		const data = await res.data;
 		const abi = (await axios.get("/abi/generateUserProfile.json")).data.abi;
-	
+
 		if (res.status === 200) {
-			const contractAddress = "0x49Bf0F1D90BC94f2C133b91D90695d489335338A";
-	
-		const write = await writeContract(config, {
-			address: contractAddress,
-			abi,
-			functionName: 'mintNFT',
-			args: [address, data.url],
-		});
+			const contractAddress = process.env.NEXT_PUBLIC_GENERATE_USER_PROFILE_CONTRACT_ADDRESS;
 
+			try {
 
-		console.log(write);
+				const write = await writeContract(config, {
+					address: contractAddress,
+					abi,
+					functionName: 'mintNFT',
+					args: [data.url],
+				});
 
-		
-
-
+				console.log(write);
+			}
+			catch(err) {
+				console.log(err);
+			}
 
 		}
-		
-		
-
 	}
 
 	const styles = {
@@ -125,6 +124,42 @@ export default function Welcome() {
 		height: "30rem"
 
 	};
+
+	const router = useRouter();
+
+	useEffect(() => {
+		async function fetchData() {
+
+
+			const res = (await axios.get("/abi/generateUserProfile.json"));
+			const abi = res.data.abi;
+			console.log(res)
+
+			if (res.status === 200) {
+				const contractAddress = process.env.NEXT_PUBLIC_GENERATE_USER_PROFILE_CONTRACT_ADDRESS;
+
+				try {
+
+					const read = await readContract(config, {
+						address: contractAddress,
+						abi,
+						functionName: 'getNFT',
+						args: [address],
+					});
+
+					console.log(read);
+
+
+					router.replace("/profile");
+				}
+				catch(err) { // the user has no NFT currently
+					console.log(err)
+				}
+			}
+
+		}
+		fetchData();
+	});
 
 
 	return (

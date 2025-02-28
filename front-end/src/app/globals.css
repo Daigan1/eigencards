@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #8a7575;
+    --background: #171616;
     --foreground: #ededed;
   }
 }
@@ -47,3 +47,5 @@ footer {
 h1 {
   font-size: 42px;
 }
+
+

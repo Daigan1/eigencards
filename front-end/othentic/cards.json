@@ -1,0 +1,429 @@
+{
+	"common": [
+		{
+			"id": "1",
+			"name": "Stone Golem",
+			"description": "A slow but sturdy creature made of ancient rock.",
+			"power": 5,
+			"src": "https://pbs.twimg.com/tweet_video_thumb/EdT_huHXsAA1XAg.jpg"
+		},
+		{
+			"id": "2",
+			"name": "Swift Rogue",
+			"description": "A sneaky thief who strikes from the shadows.",
+			"power": 9,
+			"src": "https://files.idyllic.app/files/static/2294489"
+		},
+		{
+			"id": "3",
+			"name": "Fire Imp",
+			"description": "A mischievous demon that spits small fireballs.",
+			"power": 6,
+			"src": "https://static.wikia.nocookie.net/portalworldsgame/images/a/af/Fire_Imp.png/revision/latest?cb=20190610135809"
+		},
+		{
+			"id": "4",
+			"name": "River Serpent",
+			"description": "A slippery snake that lurks beneath the water.",
+			"power": 4,
+			"src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9ea45662-cf14-4181-9394-cc3099569f41/dfmo59f-1b255a4d-4880-40fa-a1dd-4f8f06f4593e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzllYTQ1NjYyLWNmMTQtNDE4MS05Mzk0LWNjMzA5OTU2OWY0MVwvZGZtbzU5Zi0xYjI1NWE0ZC00ODgwLTQwZmEtYTFkZC00ZjhmMDZmNDU5M2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gxKIZ4W2rCn2HYl2wSvkPh_C2WmV5Z4SZnvjcbhGTaI"
+		},
+		{
+			"id": "5",
+			"name": "Woodland Archer",
+			"description": "A skilled bowman who never misses a shot.",
+			"power": 7,
+			"src": "https://img.freepik.com/premium-photo/pixel-art-man-with-bow-arrow-serene-woodland-setting_811279-72763.jpg"
+		},
+		{
+			"id": "6",
+			"name": "Undead Squire",
+			"description": "A fallen knight who still serves in death.",
+			"power": 3,
+			"src": "https://media.craiyon.com/2023-10-22/ab6a98b1986943c396c898f68a727ef6.webp"
+		},
+		{
+			"id": "7",
+			"name": "Thunder Beetle",
+			"description": "A tiny insect that crackles with energy.",
+			"power": 8,
+			"src": "https://pics.craiyon.com/2024-09-05/c4Gi4Yp9STaRBw47Art_5w.webp"
+		},
+		{
+			"id": "8",
+			"name": "Magma Cub",
+			"description": "A young lava beast learning to control its fire.",
+			"power": 5,
+			"src": "https://art.pixilart.com/e36d0cfcc620ba7.png"
+		},
+		{
+			"id": "9",
+			"name": "Goblin Tinkerer",
+			"description": "A crafty goblin who loves to make explosives.",
+			"power": 6,
+			"src": "https://dinopixel.com/preload/0224/Terraria-Goblin-Tinkerer.png"
+		},
+		{
+			"id": "10",
+			"name": "Feral Wolf",
+			"description": "A wild beast that hunts in the darkness.",
+			"power": 7,
+			"src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/918ec146-b604-4e0a-a1cb-c2f5888fdfc9/def66oa-82b5a1ff-78b4-41fd-91f5-16dacfc82065.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxOGVjMTQ2LWI2MDQtNGUwYS1hMWNiLWMyZjU4ODhmZGZjOVwvZGVmNjZvYS04MmI1YTFmZi03OGI0LTQxZmQtOTFmNS0xNmRhY2ZjODIwNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1kUhqS7beeCiIVs2M21rK0bYWpPCybBcnawHPqFkSPE"
+		},
+		{
+			"id": "11",
+			"name": "Crystal Sprite",
+			"description": "A tiny spirit that glows with mystical energy.",
+			"power": 3,
+			"src": "https://www.shutterstock.com/image-illustration/8bit-retrostyled-pixelart-illustration-crystal-260nw-2181098541.jpg"
+		},
+		{
+			"id": "12",
+			"name": "Sand Raider",
+			"description": "A desert bandit who preys on travelers.",
+			"power": 9,
+			"src": "https://i.pinimg.com/564x/e8/72/fd/e872fd8d0d4f519e7d8aeefa90a3fa45.jpg"
+		},
+		{
+			"id": "13",
+			"name": "Vine Lash",
+			"description": "A sentient plant that ensnares its foes.",
+			"power": 4,
+			"src": "https://art.pixilart.com/8c68d682c170838.png"
+		},
+		{
+			"id": "14",
+			"name": "Torch Bearer",
+			"description": "A brave warrior who lights the way.",
+			"power": 6,
+			"src": "https://i.pinimg.com/474x/e0/65/14/e06514213da08cbfc3b307aba3d37fce.jpg"
+		},
+		{
+			"id": "15",
+			"name": "Cave Stalker",
+			"description": "A creature that lurks in the deep shadows of caves.",
+			"power": 7,
+			"src": "https://art.pixilart.com/sr2131560a5c3aws3.png"
+		},
+		{
+			"id": "16",
+			"name": "Plague Swordsman",
+			"description": "A novice fighter with a steady blade.",
+			"power": 8,
+			"src": "https://pics.craiyon.com/2023-07-08/04fccdd2d4e4416fb7b9451adc196020.webp"
+		},
+		{
+			"id": "17",
+			"name": "Sky Gull",
+			"description": "A bird that scouts from above.",
+			"power": 3,
+			"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Khil8m-PxAcl2B0CcK6tCXyRk0Wb-P-XGg&s"
+		},
+		{
+			"id": "18",
+			"name": "Frost Bat",
+			"description": "A winged creature that thrives in the cold.",
+			"power": 6,
+			"src": "https://static.vecteezy.com/system/resources/thumbnails/026/547/530/small_2x/an-8-bit-retro-styled-pixel-art-illustration-of-a-blue-ice-bat-free-png.png"
+		},
+		{
+			"id": "19",
+			"name": "Mud Hulk",
+			"description": "A lumbering giant of earth and sludge.",
+			"power": 10,
+			"src": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d4/Borem.png/revision/latest?cb=20120202015107"
+		},
+		{
+			"id": "20",
+			"name": "Twilight Fox",
+			"description": "A cunning predator that blends into the night.",
+			"power": 7,
+			"src": "https://cdn.shopify.com/s/files/1/0209/7050/4241/files/pixel-art-renard-13_480x480.png?v=1607869491"
+		}
+	],
+		"epic": [
+			{
+				"id": "21",
+				"name": "Shadow Assassin",
+				"description": "A master of the night, striking without a trace.",
+				"power": 15,
+				"src": "https://art.pixilart.com/a14bf81ca7bdbdf.png"
+			},
+			{
+				"id": "22",
+				"name": "Stormcaller",
+				"description": "A powerful mage who commands the fury of storms.",
+				"power": 18,
+				"src": "https://preview.redd.it/resprited-storm-caller-bard-set-because-i-was-bored-v0-roy8caf4ve7d1.png?width=528&format=png&auto=webp&s=edf79e2aaebbd05a7ef44cb31c59484a5c06b557"
+			},
+			{
+				"id": "23",
+				"name": "Frost Guardian",
+				"description": "An ancient warrior encased in enchanted ice.",
+				"power": 12,
+				"src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7641a182-597a-424e-a1fc-997bcc84c206/diexa9p-95b65ade-a69e-48c0-8df8-0f421679ada5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc2NDFhMTgyLTU5N2EtNDI0ZS1hMWZjLTk5N2JjYzg0YzIwNlwvZGlleGE5cC05NWI2NWFkZS1hNjllLTQ4YzAtOGRmOC0wZjQyMTY3OWFkYTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yr5H6uWxMt967ssiRdHo7daaWAu9EdjydolV21v8-dQ"
+			},
+			{
+				"id": "24",
+				"name": "Infernal Warlock",
+				"description": "A dark sorcerer wielding forbidden fire magic.",
+				"power": 16,
+				"src": "https://preview.redd.it/pixel-art-of-yuan-ti-warlock-v0-9zw5qdwen1g91.png?auto=webp&s=d18555d7e47f32c97f24881874038fd2054b083a"
+			},
+			{
+				"id": "25",
+				"name": "Bone Reaver",
+				"description": "A skeletal knight who reaps souls.",
+				"power": 14,
+				"src": "https://files.idyllic.app/files/static/2100057?width=640&optimizer=image"
+			},
+			{
+				"id": "26",
+				"name": "Titan Hunter",
+				"description": "A warrior who slays mighty beasts.",
+				"power": 19,
+				"src": "https://i.pinimg.com/736x/b4/60/0b/b4600bd0a5dfb03b1c69094d13db319c.jpg"
+			},
+			{
+				"id": "27",
+				"name": "Bloodmoon Priestess",
+				"description": "A mystical seer of the crimson moon.",
+				"power": 13,
+				"src": "https://preview.redd.it/m16evv5x40q31.gif?width=640&crop=smart&format=png8&s=6fc5508f03cfd3c9ee256abcc847c7bdfc729217"
+			},
+			{
+				"id": "28",
+				"name": "Iron Juggernaut",
+				"description": "A nearly unstoppable war machine.",
+				"power": 17,
+				"src": "https://i.imgur.com/5PAbOjo.png"
+			},
+			{
+				"id": "29",
+				"name": "Phantom Duelist",
+				"description": "A spectral warrior bound by an unfulfilled challenge.",
+				"power": 15,
+				"src": "https://i.pinimg.com/236x/40/4f/d9/404fd93484c2592c78a13cf25891c156.jpg"
+			},
+			{
+				"id": "30",
+				"name": "Arcane Sentinel",
+				"description": "A guardian infused with ancient magic.",
+				"power": 20,
+				"src": "https://i.pinimg.com/222x/3e/77/e9/3e77e9d81ac939ff528f136735b4fb29.jpg"
+			},
+			{
+				"id": "31",
+				"name": "Blightborn Alchemist",
+				"description": "A twisted scientist who brews deadly poisons.",
+				"power": 14,
+				"src": "https://preview.redd.it/alchemist-barley-pixel-art-v0-i78j7iqaf1le1.png?width=544&format=png&auto=webp&s=19e99cb4ee69bca9b00157085c545ae184bcf691"
+			},
+			{
+				"id": "32",
+				"name": "Eldritch Summoner",
+				"description": "A sorcerer who calls forth horrors from beyond.",
+				"power": 18,
+				"src": "https://art.pixilart.com/daddd3f920066e7.gif"
+			},
+			{
+				"id": "33",
+				"name": "Runebound Paladin",
+				"description": "A holy warrior infused with ancient runes.",
+				"power": 12,
+				"src": "https://img.itch.zone/aW1hZ2UvMTA4NjQ4LzU0NDY1MS5naWY=/315x250%23cm/fFHsDB.gif"
+			},
+			{
+				"id": "34",
+				"name": "Volcanic Behemoth",
+				"description": "A towering creature of molten fury.",
+				"power": 19,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVSIK7zaDn3tAGH_wxa0f-6dl2OKP4MZXqLA&s"
+			},
+			{
+				"id": "35",
+				"name": "Clockwork Colossus",
+				"description": "A mechanical titan fueled by arcane energy.",
+				"power": 17,
+				"src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/dc0c4b13361661.56272f1129aee.jpg"
+			},
+			{
+				"id": "36",
+				"name": "Void Walker",
+				"description": "A cursed wanderer slipping between dimensions.",
+				"power": 16,
+				"src": "https://art.pixilart.com/439cb7b5ef8b8e7.png"
+			},
+			{
+				"id": "37",
+				"name": "Hellfire Warlord",
+				"description": "A ruthless conqueror who wields flames of damnation.",
+				"power": 20,
+				"src": "https://thumbs.dreamstime.com/b/epic-pixel-art-demon-warrior-holding-battle-axe-fiery-underworld-environment-lava-flames-surrounding-him-stunning-345886382.jpg"
+			},
+			{
+				"id": "38",
+				"name": "Celestial Monk",
+				"description": "A divine martial artist who channels cosmic energy.",
+				"power": 13,
+				"src": "https://img.freepik.com/free-photo/8-bit-graphics-pixels-scene-with-monk_23-2151121008.jpg"
+			},
+			{
+				"id": "39",
+				"name": "Nightmare Stalker",
+				"description": "A horror from dreams, hunting in the shadows.",
+				"power": 15,
+				"src": "https://files.idyllic.app/files/static/2010009?width=640&optimizer=image"
+			},
+			{
+				"id": "40",
+				"name": "Doomforged Gladiator",
+				"description": "A warrior who fights eternally in the cursed arena.",
+				"power": 19,
+				"src": "https://art.pixilart.com/ddc0dbe88db315b.png"
+			}
+		],
+		"legendary": [
+			{
+				"id": "41",
+				"name": "Celestial Dragon",
+				"description": "A majestic dragon with the power of the cosmos.",
+				"power": 27,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyFritjzOLKlYh2XGxxYmHSEy09EfDDe59Ag&s"
+			},
+			{
+				"id": "42",
+				"name": "Titan of the Abyss",
+				"description": "A godlike being born from the darkest depths.",
+				"power": 30,
+				"src": "https://preview.redd.it/titan-pixel-art-i-made-i-know-its-not-the-best-but-i-am-v0-6fry80dixox91.png?width=640&crop=smart&auto=webp&s=de73ac56305e5aab4c60f326ed39fafd4e433b92"
+			},
+			{
+				"id": "43",
+				"name": "Phoenix King",
+				"description": "A reborn ruler who wields the flames of eternity.",
+				"power": 24,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XK-86nk45uYf4N8zEP2jWYn2Co-a_-vFCA&s"
+			},
+			{
+				"id": "44",
+				"name": "Eclipse Knight",
+				"description": "A warrior bathed in the power of a dying sun.",
+				"power": 28,
+				"src": "https://img.freepik.com/premium-vector/medieval-ancient-knight-pixel-art-8-bit-style-illustration_1185721-13.jpg"
+			},
+			{
+				"id": "45",
+				"name": "Void Champion",
+				"description": "A champion who rules the endless darkness.",
+				"power": 29,
+				"src": "https://i.redd.it/116vukq29n571.png"
+			},
+			{
+				"id": "46",
+				"name": "Throne of Storms",
+				"description": "A living tempest that bends lightning to its will.",
+				"power": 26,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJHz53tITxjUhT7aZv7gPtSgMxtkgpUAqPDw&s"
+			},
+			{
+				"id": "47",
+				"name": "Chrono Warden",
+				"description": "A keeper of time who bends reality itself.",
+				"power": 23,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRu3IyFf-hOTpuoheidpjALuoeBeWhoeDIA&s"
+			},
+			{
+				"id": "48",
+				"name": "Dragonborn Tyrant",
+				"description": "The ruler of a lost empire of fire and fury.",
+				"power": 25,
+				"src": "https://img.freepik.com/premium-photo/pixel-art-phoenix-rising-from-flames-with-vibrant-orange-yellow-colors-symbolizing-rebirth-strength_537793-2540.jpg"
+			},
+			{
+				"id": "49",
+				"name": "Archmage of Eternity",
+				"description": "A sorcerer who commands the flow of existence.",
+				"power": 30,
+				"src": "https://i.pinimg.com/564x/2e/c1/32/2ec132f97ad386b985908c4d8ed1ed27.jpg"
+			},
+			{
+				"id": "50",
+				"name": "Seraph of Dawn",
+				"description": "A divine being who ushers in a new age.",
+				"power": 22,
+				"src": "https://64.media.tumblr.com/5765cb9b63a344e0a7824cfc7d091efe/9537222aacd938e3-4f/s540x810/dbc0c76a00dd1648b40642996cc12beae0737ce6.png"
+			},
+			{
+				"id": "51",
+				"name": "Godhand Champion",
+				"description": "A celestial warrior with unmatched strength.",
+				"power": 28,
+				"src": "https://i.redd.it/ipf8psxa22f91.png"
+			},
+			{
+				"id": "52",
+				"name": "Soulforged Titan",
+				"description": "A being created from the will of fallen heroes.",
+				"power": 29,
+				"src": "https://25.media.tumblr.com/7add0abac26221fc9fa97ec0b07e72b5/tumblr_mpu7jctT3k1rshwwto2_400.gif"
+			},
+			{
+				"id": "53",
+				"name": "Riftborn Specter",
+				"description": "An entity slipping through space and time.",
+				"power": 27,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4s58kg0dF_OwcEtuI2tjWxmpXKWi36kA616kurvDDafO543qqA3ZGr4EfzJmsOhbZ--Q&usqp=CAU"
+			},
+			{
+				"id": "54",
+				"name": "Eternal Warlock",
+				"description": "A mage who has lived countless lifetimes.",
+				"power": 24,
+				"src": "https://img.itch.zone/aW1hZ2UvMTc5NzY1LzgzOTc4MC5naWY=/315x250%23cm/u6fMB1.gif"
+			},
+			{
+				"id": "55",
+				"name": "Celestial Hydra",
+				"description": "A mythical beast with endless regenerative heads (using photosynthesis)",
+				"power": 30,
+				"src": "https://external-preview.redd.it/Nm9dqCO--AxBWBmiv1GlTY-nFvZPcN0ObXH3z_E5pcU.gif?format=png8&s=4351dee59868237dd734a0c47f2cd3aaf26d55e4"
+			},
+			{
+				"id": "56",
+				"name": "Starborn Warlord",
+				"description": "A conqueror who commands the power of the stars.",
+				"power": 26,
+				"src": "https://e7.pngegg.com/pngimages/14/429/png-clipart-pixel-art-akuma-boss-pixel-art-boss-bead-thumbnail.png"
+			},
+			{
+				"id": "57",
+				"name": "Primordial Behemoth",
+				"description": "A creature older than time itself.",
+				"power": 25,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIz5nRyNLRQIQUHwpOfw3afLVWkvx72MsXNU6hYTpSLDEYhLBwYn6OLvO7laIrHGOlBT0&usqp=CAU"
+			},
+			{
+				"id": "58",
+				"name": "Doomsday Prophet",
+				"description": "A seer who foretells the end of all things.",
+				"power": 28,
+				"src": "https://preview.redd.it/day-4-of-my-pixel-art-progression-today-i-decided-to-remake-v0-lxypd70z60pd1.png?width=512&format=png&auto=webp&s=8ae22e0414ee3ba4519bf3c2c1ff8e09869e4b53"
+			},
+			{
+				"id": "59",
+				"name": "Stormborn Leviathan",
+				"description": "A sea creature capable of summoning tempests.",
+				"power": 27,
+				"src": "https://art.pixilart.com/4f560e604f2849d.png"
+			},
+			{
+				"id": "60",
+				"name": "The Cosmic Judge",
+				"description": "A divine entity who enforces universal balance, woooooo.",
+				"power": 30,
+				"src": "https://img.freepik.com/premium-vector/ufo-flying-saucer-pixel-art-style_744913-2585.jpg"
+			}
+		]
+	}
+	
