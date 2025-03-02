@@ -34,4 +34,4 @@ deploy:
 	forge create StakeContract --private-key ${PRIVATE_KEY} # --rpc-url 
 
 deploy-sepolia:
-	forge script script/DynamicFeeHook.s.sol --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast
+	forge script contracts/Uniswap/script/DynamicFeeHook.s.sol:DynamicFeeHookScript --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY_PERFORMER} --broadcast
