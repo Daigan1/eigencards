@@ -33,14 +33,7 @@ contract.on("generateLegendary", (sender) => {
 	run("legendary", sender);
 });
 
-<<<<<<< HEAD
-
-
-
-const run = async (type, sender) => {
-=======
 const run = async (type) => {
->>>>>>> 5e7dcfe (Before subimssion commit)
 	const data = await fs.readFile(`../${type}.json`);
 	data = JSON.parse(data);
 	cardsChosen = [sender];
