@@ -1,6 +1,5 @@
 import fs from "node:fs/promises";
 
-
 function getRandomInt(max) {
 	return Math.floor(Math.random() * (max + 1));
 }
@@ -34,9 +33,6 @@ contract.on("generateLegendary", (sender, value) => {
 	run("legendary");
 });
 
-
-
-
 const run = async (type) => {
 	const data = await fs.readFile(`../${type}.json`);
 	data = JSON.parse(data);
@@ -64,7 +60,6 @@ async function sendTask(data, taskDefinitionId) {
 	const message = ethers.AbiCoder.defaultAbiCoder().encode(["string", "bytes", "address", "uint16"], [data, performerAddress]);
 	const messageHash = ethers.keccak256(message);
 	const sig = wallet.signingKey.sign(messageHash).serialized;
-
 
 	const jsonRpcBody = {
 		jsonrpc: "2.0",

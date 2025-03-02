@@ -1,6 +1,7 @@
 require('dotenv').config();
 const PinataSDK = require("@pinata/sdk");
-import {ethers} from "ethers";
+// import {ethers} from "ethers";
+const ethers = require("ethers");
 
 var pinataApiKey='';
 var pinataSecretApiKey='';

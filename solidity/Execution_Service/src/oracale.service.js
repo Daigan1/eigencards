@@ -19,7 +19,7 @@ async function getMarketSentiment() {
       }
 
       const data = await response.json();
-      const marketSentiment = data.data.value_classification; // Adjust this based on the actual API response structure
+      const marketSentiment = data.data.value_classification;
       return marketSentiment;
   } catch (error) {
       console.error('Error fetching data:', error);
