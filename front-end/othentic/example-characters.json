@@ -1,0 +1,113 @@
+{
+    "common": [
+		{
+			"id": "1",
+			"name": "Stone Golem",
+			"description": "A slow but sturdy creature made of ancient rock.",
+			"power": 5,
+			"src": "https://pbs.twimg.com/tweet_video_thumb/EdT_huHXsAA1XAg.jpg"
+		},
+		{
+			"id": "2",
+			"name": "Swift Rogue",
+			"description": "A sneaky thief who strikes from the shadows.",
+			"power": 9,
+			"src": "https://files.idyllic.app/files/static/2294489"
+		},
+		{
+			"id": "3",
+			"name": "Fire Imp",
+			"description": "A mischievous demon that spits small fireballs.",
+			"power": 6,
+			"src": "https://static.wikia.nocookie.net/portalworldsgame/images/a/af/Fire_Imp.png/revision/latest?cb=20190610135809"
+		},
+		{
+			"id": "4",
+			"name": "River Serpent",
+			"description": "A slippery snake that lurks beneath the water.",
+			"power": 4,
+			"src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9ea45662-cf14-4181-9394-cc3099569f41/dfmo59f-1b255a4d-4880-40fa-a1dd-4f8f06f4593e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzllYTQ1NjYyLWNmMTQtNDE4MS05Mzk0LWNjMzA5OTU2OWY0MVwvZGZtbzU5Zi0xYjI1NWE0ZC00ODgwLTQwZmEtYTFkZC00ZjhmMDZmNDU5M2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gxKIZ4W2rCn2HYl2wSvkPh_C2WmV5Z4SZnvjcbhGTaI"
+		},
+		{
+			"id": "5",
+			"name": "Woodland Archer",
+			"description": "A skilled bowman who never misses a shot.",
+			"power": 7,
+			"src": "https://img.freepik.com/premium-photo/pixel-art-man-with-bow-arrow-serene-woodland-setting_811279-72763.jpg"
+		}
+    ],
+    "epic": [
+			{
+				"id": "21",
+				"name": "Shadow Assassin",
+				"description": "A master of the night, striking without a trace.",
+				"power": 15,
+				"src": "https://art.pixilart.com/a14bf81ca7bdbdf.png"
+			},
+			{
+				"id": "22",
+				"name": "Stormcaller",
+				"description": "A powerful mage who commands the fury of storms.",
+				"power": 18,
+				"src": "https://preview.redd.it/resprited-storm-caller-bard-set-because-i-was-bored-v0-roy8caf4ve7d1.png?width=528&format=png&auto=webp&s=edf79e2aaebbd05a7ef44cb31c59484a5c06b557"
+			},
+			{
+				"id": "23",
+				"name": "Frost Guardian",
+				"description": "An ancient warrior encased in enchanted ice.",
+				"power": 12,
+				"src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7641a182-597a-424e-a1fc-997bcc84c206/diexa9p-95b65ade-a69e-48c0-8df8-0f421679ada5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc2NDFhMTgyLTU5N2EtNDI0ZS1hMWZjLTk5N2JjYzg0YzIwNlwvZGlleGE5cC05NWI2NWFkZS1hNjllLTQ4YzAtOGRmOC0wZjQyMTY3OWFkYTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yr5H6uWxMt967ssiRdHo7daaWAu9EdjydolV21v8-dQ"
+			},
+			{
+				"id": "24",
+				"name": "Infernal Warlock",
+				"description": "A dark sorcerer wielding forbidden fire magic.",
+				"power": 16,
+				"src": "https://preview.redd.it/pixel-art-of-yuan-ti-warlock-v0-9zw5qdwen1g91.png?auto=webp&s=d18555d7e47f32c97f24881874038fd2054b083a"
+			},
+			{
+				"id": "25",
+				"name": "Bone Reaver",
+				"description": "A skeletal knight who reaps souls.",
+				"power": 14,
+				"src": "https://files.idyllic.app/files/static/2100057?width=640&optimizer=image"
+			}
+    ],
+    "legendary": [
+			{
+				"id": "41",
+				"name": "Celestial Dragon",
+				"description": "A majestic dragon with the power of the cosmos.",
+				"power": 27,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyFritjzOLKlYh2XGxxYmHSEy09EfDDe59Ag&s"
+			},
+			{
+				"id": "42",
+				"name": "Titan of the Abyss",
+				"description": "A godlike being born from the darkest depths.",
+				"power": 30,
+				"src": "https://preview.redd.it/titan-pixel-art-i-made-i-know-its-not-the-best-but-i-am-v0-6fry80dixox91.png?width=640&crop=smart&auto=webp&s=de73ac56305e5aab4c60f326ed39fafd4e433b92"
+			},
+			{
+				"id": "43",
+				"name": "Phoenix King",
+				"description": "A reborn ruler who wields the flames of eternity.",
+				"power": 24,
+				"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XK-86nk45uYf4N8zEP2jWYn2Co-a_-vFCA&s"
+			},
+			{
+				"id": "44",
+				"name": "Eclipse Knight",
+				"description": "A warrior bathed in the power of a dying sun.",
+				"power": 28,
+				"src": "https://img.freepik.com/premium-vector/medieval-ancient-knight-pixel-art-8-bit-style-illustration_1185721-13.jpg"
+			},
+			{
+				"id": "45",
+				"name": "Void Champion",
+				"description": "A champion who rules the endless darkness.",
+				"power": 29,
+				"src": "https://i.redd.it/116vukq29n571.png"
+			}
+        ]
+}
